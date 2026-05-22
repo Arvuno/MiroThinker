@@ -28,6 +28,7 @@
 
 ## 📋 Table of Contents
 
+- 📋 [Prerequisites](#-prerequisites)
 - 📰 [News & Updates](#-news--updates)
 - 📝 [Introduction](#-introduction)
 - ✨ [Key Features](#-key-features)
@@ -38,6 +39,16 @@
 - ❓ [FAQ & Troubleshooting](#-faq--troubleshooting)
 - 📄 [License](#-license)
 - 🙏 [Acknowledgments](#-acknowledgments)
+
+## 📋 Prerequisites
+
+Before using MiroThinker, ensure you have the following:
+
+- 🐍 **Python 3.10+** — Required runtime
+- 📦 **uv package manager** — Fast Python package manager ([Installation guide](https://github.com/astral-sh/uv))
+- 🔑 **API Keys** — Required for tool services (see [Tool Configuration](#tool-configuration))
+
+> **Note**: API keys are required for services like Serper (search), Jina (scraping), and E2B (code execution). See the [Tool Configuration](#tool-configuration) section for details.
 
 ## 📰 News & Updates
 - **[2026-03-11]** 🎉🎉🎉 Introducing [MiroThinker-1.7](https://huggingface.co/collections/miromind-ai/mirothinker-17), including [MiroThinker-1.7-mini](https://huggingface.co/miromind-ai/MiroThinker-1.7-mini) and [MiroThinker-1.7](https://huggingface.co/miromind-ai/MiroThinker-1.7). MiroThinker-1.7-mini achieves 72.3 on BrowseComp-ZH, setting a new SOTA among open-source models while using only 30B parameters. Our proprietary agent MiroThinker-H1 achieves leading performance on BrowseComp and BrowseComp-ZH among open-source and commercial models.
