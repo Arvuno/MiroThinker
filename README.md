@@ -23,7 +23,7 @@
 
 </div>
 
-**MiroThinker**: A deep research agent optimized for research and prediction. It achieves a 88.2  on the challenging BrowseComp benchmark. See [Quick Start](#-quick-start).
+**MiroThinker**: A deep research agent optimized for research and prediction. It achieves a 88.2 on the challenging BrowseComp benchmark. See [Quick Start](#-quick-start).
 
 
 ## 📋 Table of Contents
