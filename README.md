@@ -378,6 +378,36 @@ We have released the **MiroThinker v0.1** series, including both SFT and DPO var
 
 For optimal usage, we recommend using MiroThinker with this tool-enabled agent framework and thinking mode enabled.
 
+### Online (no setup)
+
+Open [https://dr.miromind.ai/](https://dr.miromind.ai/) in Chrome or Edge. Done.
+
+### Local Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/MiroMindAI/MiroThinker.git
+cd MiroThinker
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Gradio demo
+python apps/gradio-demo/app.py
+```
+
+### API Usage
+
+```python
+from mirothinker import MiroThinker
+
+agent = MiroThinker(model="mirothinker-1.7")
+result = agent.research("What are the latest developments in AI?")
+print(result)
+```
+
+## Key Features
+
 ### Prerequisites
 
 - 🐍 **Python 3.10+**
