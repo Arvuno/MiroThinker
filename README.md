@@ -1002,3 +1002,6 @@ If you find this project useful in your research, please consider citing:
 
 ## Contributing
 PRs welcome!
+
+<!-- Contributor: Arvuno - documentation update -->
+
